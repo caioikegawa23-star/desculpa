@@ -232,6 +232,92 @@ button:hover{
         transform:scale(1);
     }
 }
+    /* ========================= */
+/* RESPONSIVIDADE CELULAR */
+/* ========================= */
+
+@media (max-width: 768px){
+
+    .hero{
+        padding:20px;
+        height:100vh;
+    }
+
+    .card{
+        padding:35px 25px;
+        border-radius:25px;
+    }
+
+    h1{
+        font-size:42px;
+        line-height:50px;
+    }
+
+    .hero p{
+        font-size:18px;
+        line-height:30px;
+    }
+
+    button{
+        width:100%;
+        padding:16px;
+        font-size:17px;
+    }
+
+    .texto{
+        padding:0 10px;
+    }
+
+    .texto h2{
+        font-size:42px;
+        line-height:50px;
+    }
+
+    .texto p{
+        font-size:18px;
+        line-height:34px;
+    }
+
+    .galeria{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .foto{
+        border-radius:22px;
+    }
+
+    .foto img{
+        height:420px;
+        object-fit:cover;
+    }
+
+    .overlay{
+        opacity:1;
+        background:linear-gradient(to top,
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.1));
+    }
+
+    .overlay h3{
+        font-size:24px;
+    }
+
+    .overlay p{
+        font-size:15px;
+    }
+
+    .final{
+        margin-top:70px;
+        padding:0 15px 80px;
+    }
+
+    .final h1{
+        font-size:38px;
+        line-height:55px;
+    }
+
+}
 
 </style>
 </head>
